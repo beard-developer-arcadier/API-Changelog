@@ -17,3 +17,86 @@ header {
 footer {
   //display: none;
 }
+
+.arcadier-ftr-container {
+    background: #43484F;
+    display: inline-block;
+    width: 100%;
+    padding: 50px 75px;
+}
+
+div.footer-line {
+    border-bottom: 1px solid #7D8AA3;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.full-width {
+    width: 100%;
+    display: inline-block;
+}
+
+.footer-top-left {
+    display: inline-block;
+    width: Calc(100% - 180px);
+}
+
+.footer-top-menu {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    padding-top: 0px;
+}
+
+.footer-top-right {
+    display: inline-block;
+}
+
+.footer-content-left {
+    display: inline-block;
+    width: Calc(100% - 190px);
+}
+
+.ftr-detail-container {
+    float: left;
+    width: 25%;
+}
+
+.cur-pointer {
+    cursor: pointer;
+}
+
+.left {
+    float: left;
+}
+
+.ftr-detail-container-last {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-bottom {
+    background: #1c2426;
+    float: left;
+    width: 100%;
+}
+
+.footer-bottom-menu {
+    display: inline-block;
+    width: 100%;
+    padding: 0 30px;
+    margin-bottom: 0;
+}
+
+.footer-bottom-menu > ul.ftr-btm-m:first-child {
+    display: inline-block;
+    width: Calc(100% - 290px);
+}
+
+.footer-bottom-menu ul {
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+}
