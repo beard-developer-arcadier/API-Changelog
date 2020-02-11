@@ -2605,10 +2605,11 @@ white-space: -o-pre-wrap;*/
 
 .postmane-sec-link,
 .postmane-sec-link:hover {
-    background: #ff6c37;
+    background: #ffffff;
+    border: 1px solid #ff6c37;
     border-radius: 5px;
     font-size: 14px;
-    color: #fff;
+    color: #fff !important;
     outline: none;
     text-decoration: none;
     height: 40px;
