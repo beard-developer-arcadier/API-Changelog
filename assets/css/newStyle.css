@@ -4346,7 +4346,7 @@ ul.pt_office_lt li {
    font-size: 16px;
 }
 
-.welcome-body section p strong {
+.welcome-body section p .changelog-title strong {
    color: #282828;
 }
 
