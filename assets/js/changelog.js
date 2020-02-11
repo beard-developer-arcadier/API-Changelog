@@ -1,5 +1,5 @@
-import_toastr();
-import_toastr_css();
+//import_toastr();
+// import_toastr_css();
 $(document).ready(function(){
 	$("#filter").click(function(){
 		var json_url = "https://raw.githubusercontent.com/Arcadier/API-Changelog/master/Postman%20Collections/Arcadier_API_v2.0.json";
@@ -45,35 +45,31 @@ function changeTitles(){
 	title.innerHTML = "Arcadier API Changelog";
 }
 
-function import_toastr(){
-	var i=0;
-	var toast_timer = setInterval(function(){
-		if(i == 2){
-			var toastr_js = document.createElement('script');
-			toastr_js.src = "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"
-			toastr_js.type = 'text/javascript';
-			document.getElementsByTagName('head')[0].appendChild(toastr_js);
-			clearInterval(toast_timer);
-		}
-		i++;
-	}, 50);
-}
+// function import_toastr(){
+// 	var i=0;
+// 	var toast_timer = setInterval(function(){
+// 		if(i == 2){
+// 			var toastr_js = document.createElement('script');
+// 			toastr_js.src = "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"
+// 			toastr_js.type = 'text/javascript';
+// 			document.getElementsByTagName('head')[0].appendChild(toastr_js);
+// 			clearInterval(toast_timer);
+// 		}
+// 		i++;
+// 	}, 50);
+// }
 
-function import_toastr_css(){
-	var i=0;
-	var timer = setInterval(function(){
-		if(i == 2){
-			var style = document.createElement('link');
-			style.href = "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"
-			style.type = 'text/css';
-			style.rel = "stylesheet";
-			document.getElementsByTagName('head')[0].appendChild(style);
-			clearInterval(timer);
-		}
-		i++;
-	}, 50);
-}
-
-function hideFooter(){
-	//done by css
-}
+// function import_toastr_css(){
+// 	var i=0;
+// 	var timer = setInterval(function(){
+// 		if(i == 2){
+// 			var style = document.createElement('link');
+// 			style.href = "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"
+// 			style.type = 'text/css';
+// 			style.rel = "stylesheet";
+// 			document.getElementsByTagName('head')[0].appendChild(style);
+// 			clearInterval(timer);
+// 		}
+// 		i++;
+// 	}, 50);
+// }
