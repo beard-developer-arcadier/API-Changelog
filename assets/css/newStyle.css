@@ -42,6 +42,10 @@ header {
     padding: 0;
 }
 
+.arc_logo img {
+    max-width: 240px;
+}
+
 .top-menu {
     width: auto;
     vertical-align: middle;
