@@ -995,6 +995,7 @@ footer {
     float: left;
     width: 100%;
     background: #43484f;
+    display: none;
 }
 
 .footer-detail-container-last ul li>span.text a:hover {
