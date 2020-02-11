@@ -80,14 +80,8 @@
             </div> -->
 		</div>
 	</div>
-</header> 
-    </div>
-    <div class="custom_header">
-        <div class="logo_arc">
-<!--             <img src="https://api.arcadier.com/assets/images/logo.svg"/> -->
-        </div>
-    </div>
-    <div class="wrapper grab_wrapper">
+</header>
+	    <div class="wrapper grab_wrapper">
       <div>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
@@ -120,7 +114,8 @@
         </ul>
         {% endif %}
       </div>
-      <section>
+		    
+	<section>
 
       {{ content }}
 
@@ -130,7 +125,15 @@
           <!-- <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>-->
           {% endif %}
           <p><small>Hosted on GitHub Pages</small></p>
-      </footer>
+      </footer>	    
+    </div>
+    <div class="custom_header">
+        <div class="logo_arc">
+<!--             <img src="https://api.arcadier.com/assets/images/logo.svg"/> -->
+        </div>
+    </div>
+    
+      
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
