@@ -4353,3 +4353,8 @@ ul.pt_office_lt li {
 .welcome-body section li a {
    font-size: 16px;
 }
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
