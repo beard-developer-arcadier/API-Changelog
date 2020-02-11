@@ -10,8 +10,8 @@ $(document).ready(function(){
 		});
 	});
 	
-//	addPostmanButton();
-	changeViewButton();
+	addPostmanButton();
+//	changeViewButton();
 	changeTitles();
 	hideFooter();
 	
