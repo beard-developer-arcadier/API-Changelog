@@ -4335,3 +4335,8 @@ ul.pt_office_lt li {
 .subhead h1 a {
     color: #282828;
 }
+
+.welcome-body .section {
+    max-width: 980px;
+    margin: 0 auto;
+}
