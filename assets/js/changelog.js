@@ -10,7 +10,6 @@ $(document).ready(function(){
 	
 	addPostmanButton();
 	changeViewButton();
-	changeTitles();
 	
 	function addPostmanButton(){
 		(function (p,o,s,t,m,a,n) {!p[s] && (p[s] = function (){(p[t] || (p[t] = [])).push(arguments);});!o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild(((n = o.createElement("script")), (n.id = s+t), (n.async = 1), (n.src = m), n));}
@@ -30,8 +29,3 @@ $(document).ready(function(){
 		}, 100);
 	}
 });
-
-function changeTitles(){
-	var title = document.querySelector(".wrapper > header > h1 > a");
-	title.innerHTML = "Arcadier API Changelog";
-}
