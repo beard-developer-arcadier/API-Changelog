@@ -33,7 +33,7 @@ $(document).ready(function(){
 				console.log("exists");
 				view_btn.href = "https://apiv2.arcadier.com";
 				view_btn.target = "_blank";
-				view_btn.innerHTML = "View API's on Postman";
+				view_btn.innerHTML = "Go to Postman";
 				clearInterval(timer);
 			}
 		}, 100);
