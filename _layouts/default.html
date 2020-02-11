@@ -27,22 +27,19 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+        
+        {% if site.github.is_project_page %}
+        <p class="view"><a href="https://github.com/Arcadier">Visit our GitHub <small>GitHub.com/Arcadier</small></a></p>
+        {% endif %}
         <p align="center">
           <a href="https://api.arcadier.com/welcome" rel="nofollow"><strong>Explore Arcadier's docs »</strong></a>
           <br>
-          <a href="https://github.com/Arcadier/Mogozay-Support/issues/new?assignees=&amp;labels=&amp;template=problem-report.md&amp;title=">Report an issue</a>
+          <a href="https://github.com/Arcadier/Developer-Community-Support/issues/new?assignees=&labels=&template=bug_report.md&title=" target="_blank">Report an issue</a>
           ·
-          <a href="https://github.com/Arcadier/Mogozay-Support/issues/new?assignees=&amp;labels=&amp;template=feature_request.md&amp;title=">Request a feature</a>
+          <a href="https://github.com/Arcadier/Developer-Community-Support/issues/new?assignees=&labels=&template=feature_request.md&title=" target="_blank">Request a feature</a>
           ·
-          <a href="https://github.com/Arcadier/Mogozay-Support/issues?q=is%3Aissue+is%3Aclosed">View closed issues</a>
-          ·
-          <a href="https://github.com/Arcadier/Mogozay-Support/issues?q=is%3Aopen+is%3Aissue">View open issues</a>
+          <a href="https://github.com/Arcadier/Developer-Community-Support/issues" target="_blank">Visit Issue Tracker</a>
         </p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
