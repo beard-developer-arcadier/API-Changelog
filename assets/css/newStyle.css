@@ -4378,7 +4378,7 @@ hr {
 .postman-run-button {
     height: 41px !important;
     width: 168px !important;
-    background-size: cover;
+    background-size: cover !important;
     vertical-align: middle;
     margin-top: -4px;
 }
