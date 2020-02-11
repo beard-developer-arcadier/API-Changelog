@@ -11,7 +11,7 @@ $(document).ready(function(){
 	});
 	
 	addPostmanButton();
-//	changeViewButton();
+	changeViewButton();
 	changeTitles();
 	hideFooter();
 	
@@ -28,7 +28,7 @@ $(document).ready(function(){
 	
 	function changeViewButton(){
 		var timer = setInterval(function(){
-			var view_btn = document.querySelector(".wrapper > .subhead > p > a");
+			var view_btn = document.querySelector(".wrapper > header > li.view > a");
 			if(view_btn){
 				console.log("exists");
 				view_btn.href = "https://apiv2.arcadier.com";
