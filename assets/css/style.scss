@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+body {
+  font-family: "Open Sans",sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
 .wrapper {
   width: auto;
 }
