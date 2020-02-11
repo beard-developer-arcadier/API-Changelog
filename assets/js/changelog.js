@@ -42,7 +42,7 @@ $(document).ready(function(){
 
 function changeTitles(){
 	var title = document.querySelector(".wrapper > .subhead > h1 > a");
-	title.innerHTML = "Arcadier API Changelog";
+	title.innerHTML = "API Changelog";
 }
 
 function import_toastr(){
