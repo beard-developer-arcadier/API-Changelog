@@ -4341,3 +4341,15 @@ ul.pt_office_lt li {
     max-width: 980px;
     margin: 0 auto;
 }
+
+.welcome-body section p {
+   font-size: 16px;
+}
+
+.welcome-body section p strong {
+   color: #282828;
+}
+
+.welcome-body section li a {
+   font-size: 16px;
+}
