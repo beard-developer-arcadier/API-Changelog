@@ -10,7 +10,7 @@ $(document).ready(function(){
 		});
 	});
 	
-	addPostmanButton();
+//	addPostmanButton();
 	changeViewButton();
 	changeTitles();
 	hideFooter();
