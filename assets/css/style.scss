@@ -15,8 +15,8 @@ h1 {
   font-weight: 500;
 }
 
-a {
-  color: #EF5B25;
+a, a:active, a:focus, a:hover {
+    color: #ef5b25;
 }
 
 .wrapper {
