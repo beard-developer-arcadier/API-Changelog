@@ -23,6 +23,10 @@ a, a:active, a:focus, a:hover {
     font-weight: 400;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .wrapper {
   width: auto;
 }
