@@ -8,6 +8,8 @@ body {
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
   color: #282828;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
@@ -28,7 +30,7 @@ header {
   border: 1px solid #ccc!important;
   border-radius: 16px;
   padding: 16px;
-  min-width: 400px;
+  width: auto;
   margin-top: 40px;
   margin-left: 8px;
   text-align: center;
@@ -51,9 +53,4 @@ footer {
 .logo_arc img {
     width: 30px;
     height: 30px;
-}
-
-body {
-  margin: 0px;
-  padding: 0px;
 }
