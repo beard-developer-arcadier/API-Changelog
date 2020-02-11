@@ -41,7 +41,7 @@ $(document).ready(function(){
 });
 
 function changeTitles(){
-	var title = document.querySelector(".wrapper > header > h1 > a");
+	var title = document.querySelector(".wrapper > h1 > a");
 	title.innerHTML = "Arcadier API Changelog";
 }
 
