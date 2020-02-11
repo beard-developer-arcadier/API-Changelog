@@ -114,7 +114,7 @@
         </div>
     </div>
     <div class="wrapper">
-      <header>
+      <div>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
         {% if site.logo %}
@@ -145,7 +145,7 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-      </header>
+      </div>
       <section>
 
       {{ content }}
