@@ -18,6 +18,7 @@ a:focus,
 a:active {
     text-decoration: none;
     outline: none;
+    color: #ef5b25;
 }
 
 header {
@@ -4325,3 +4326,12 @@ ul.pt_office_lt li {
     margin-bottom: 15px;
 }
 .d-flex {display: flex;align-items: center;width: 100%;}
+
+.subhead h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.subhead h1 a {
+    color: #282828;
+}
