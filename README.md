@@ -1,8 +1,3 @@
-
-
-Major changes in Arcadier's APIs and Documentation will be logged here way before they are pushed to live. 
-<div align="center"><button id="filter">Test Button</button></div>
-
 <p align="center"><strong>(6 February 2020) Item Search APIs</strong></p>
 
 Added sorting query parameters to:
