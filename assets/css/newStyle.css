@@ -27,9 +27,12 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background: #f0f0f0;
+    background: #ffffff;
     padding: 15px 0;
     z-index: 1111;
+    box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
 .arc_logo {
@@ -4358,4 +4361,7 @@ ul.pt_office_lt li {
 hr {
     margin-top: 30px;
     margin-bottom: 30px;
+     box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.1);
 }
