@@ -4374,3 +4374,11 @@ hr {
     -webkit-box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.1);
 }
+
+.postman-run-button {
+    height: 41px !important;
+    width: 168px !important;
+    background-size: cover;
+    vertical-align: middle;
+    margin-top: -4px;
+}
