@@ -28,7 +28,7 @@ $(document).ready(function(){
 	
 	function changeViewButton(){
 		var timer = setInterval(function(){
-			var view_btn = document.querySelector(".wrapper > header > p > a");
+			var view_btn = document.querySelector(".wrapper > .subhead > p > a");
 			if(view_btn){
 				console.log("exists");
 				view_btn.href = "https://apiv2.arcadier.com";
@@ -41,7 +41,7 @@ $(document).ready(function(){
 });
 
 function changeTitles(){
-	var title = document.querySelector(".wrapper > h1 > a");
+	var title = document.querySelector(".wrapper > .subhead > h1 > a");
 	title.innerHTML = "Arcadier API Changelog";
 }
 
