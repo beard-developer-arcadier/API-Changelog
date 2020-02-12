@@ -1265,6 +1265,8 @@ background-size: contain;
     .mobile_nav .menu li a{
 	 padding-left: 30px;
     	padding-right: 30px;
+        display: block;
+        width: 100%;
     }
    
     .mobile_nav .menu li a:hover, .mobile_nav .menu li a:focus {
