@@ -44,7 +44,11 @@ header {
 }
 
 .arc_logo img {
-    max-width: 240px;
+    max-width: 228px;
+}
+
+.mobile_nav {
+    display: none;
 }
 
 .top-menu {
