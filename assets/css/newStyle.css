@@ -4459,11 +4459,15 @@ hr {
 
 @media screen and (min-width:1025px) and (max-width:1278px) {
 	.postman-run-button {
-	    height: 33px !important;
-	    width: 134px !important;
+	        height: 27px !important;
+    		width: 111px !important;
 	}
 	.postmane-sec-link, .postmane-sec-link:hover {
-    		padding: 6px 11px !important;
+    		padding: 5px 11px !important;
+    		font-size: 11px !important;
+	}
+	.top-menu ul li {
+    		padding: 0 5px;
 	}
 }
 
