@@ -1314,7 +1314,7 @@ background-size: contain;
     }
 
     .mobile_nav {
-        margin-top: 51px;
+        margin-top: 47px;
 	position: absolute;
 	width: 100%;
 	background: #fff;
@@ -2284,6 +2284,9 @@ max-width: 970px;
     .theme-page .invisible-header {
         margin-left: 0;
     }
+    .mobile_nav {
+	margin-top: 44px;
+     }
 }
 
 .grey_bg_area-section img {
