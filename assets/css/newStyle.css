@@ -1271,12 +1271,28 @@ background-size: contain;
     }
 
 	.postmane-sec-link, .postmane-sec-link:hover {
-	    padding: 10px 15px;
-            max-width: 204px;
-	    font-size: 14px;
+	    padding: 9px 15px !important;
+	    max-width: 204px;
+	    font-size: 14px !important;
 	    text-align: center;
-	    line-height: 8px;
-	    height: 49px;
+	    line-height: 24px !important;
+	    height: 41px !important;
+	    margin-top: -2px;
+	}
+	
+	.mobile_nav .desktop {
+	    padding: 0 30px;
+	    padding-left: 30px !important;
+	    margin-top: 10px;
+	    margin-bottom: 20px;
+	}
+	
+	.mobile_nav .postman-run-button {
+	   float: left;
+	}
+	
+	.mobile_nav .view {
+	   float: right;
 	}
    
     .mobile_nav .menu li a:hover, .mobile_nav .menu li a:focus {
