@@ -10,6 +10,11 @@ $(document).ready(function(){
 		});
 	});
 	
+	$('.opener.toggle-menu').click(function(e) {
+            $('.mobile_nav').toggle();
+        
+        });
+	
 	addPostmanButton();
 	changeViewButton();
 	changeTitles();
