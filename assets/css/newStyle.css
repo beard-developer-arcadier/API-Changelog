@@ -44,7 +44,8 @@ header {
 }
 
 .arc_logo img {
-    max-width: 228px;
+    max-width: 160px;
+    margin-top: 6px;
 }
 
 .mobile_nav {
