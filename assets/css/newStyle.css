@@ -4457,7 +4457,7 @@ hr {
     margin-top: -4px;
 }
 
-@media (min-width: 1025px){
+@media screen and (min-width:1025px) and (max-width:1278px) {
 	.postman-run-button {
 	    height: 33px !important;
 	    width: 134px !important;
@@ -4467,14 +4467,4 @@ hr {
 	}
 }
 
-@media (max-width: 1278px) {
-      .postman-run-button {
-	    height: 33px !important;
-	    width: 134px !important;
-	}
-	.postmane-sec-link, .postmane-sec-link:hover {
-    		padding: 6px 11px !important;
-	}
-
-}
 
