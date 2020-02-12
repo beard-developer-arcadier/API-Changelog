@@ -1403,6 +1403,21 @@ background-size: contain;
     -webkit-touch-callout: none;
 }
 
+.postmane-sec-link,
+.postmane-sec-link:hover {
+    background: #ffffff;
+    border: 1px solid #ff6c37;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #ff6c37 !important;
+    outline: none;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 15px;
+}
+
+
 @media (min-width: 768px) {
 
     .button,
@@ -2643,19 +2658,6 @@ white-space: -o-pre-wrap;*/
     font-weight: 400;
 }
 
-.postmane-sec-link,
-.postmane-sec-link:hover {
-    background: #ffffff;
-    border: 1px solid #ff6c37;
-    border-radius: 5px;
-    font-size: 14px;
-    color: #ff6c37 !important;
-    outline: none;
-    text-decoration: none;
-    height: 40px;
-    line-height: 40px;
-    padding: 10px 15px;
-}
 
 .catalog-banner {
     display: inline-block;
