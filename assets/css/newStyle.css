@@ -1254,6 +1254,22 @@ background-size: contain;
 
     .mobile_nav .menu {
         padding-top: 0px !important;
+        padding-left: 0;
+    }
+
+    .mobile_nav .menu li {
+       list-style: none;
+       padding-left: 0 !important;
+    }
+
+    .mobile_nav .menu li a{
+	 padding-left: 30px;
+    	padding-right: 30px;
+    }
+   
+    .mobile_nav .menu li a:hover, .mobile_nav .menu li a:focus {
+       background:#ef5b25;
+       color: #ffffff;
     }
 
     .mobile_nav {
@@ -1261,7 +1277,8 @@ background-size: contain;
 	position: absolute;
 	width: 100%;
 	background: #fff;
-        display: block;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        display: none;
     }
 
     .mobile_nav.active {
