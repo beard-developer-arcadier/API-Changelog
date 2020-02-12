@@ -44,7 +44,8 @@ header {
 }
 
 .arc_logo img {
-    max-width: 228px;
+    max-width: 160px;
+    margin-top: 6px;
 }
 
 .mobile_nav {
@@ -68,7 +69,7 @@ header {
 .top-menu ul li {
     display: inline-block;
     width: auto;
-    padding: 0 25px;
+    padding: 0 13px;
     position: relative;
 }
 
@@ -1313,7 +1314,7 @@ background-size: contain;
     }
 
     .mobile_nav {
-        margin-top: 51px;
+        margin-top: 47px;
 	position: absolute;
 	width: 100%;
 	background: #fff;
@@ -2283,6 +2284,9 @@ max-width: 970px;
     .theme-page .invisible-header {
         margin-left: 0;
     }
+    .mobile_nav {
+	margin-top: 44px;
+     }
 }
 
 .grey_bg_area-section img {
@@ -4456,3 +4460,19 @@ hr {
     vertical-align: middle;
     margin-top: -4px;
 }
+
+@media screen and (min-width:1025px) and (max-width:1278px) {
+	.postman-run-button {
+	        height: 27px !important;
+    		width: 111px !important;
+	}
+	.postmane-sec-link, .postmane-sec-link:hover {
+    		padding: 5px 11px !important;
+    		font-size: 11px !important;
+	}
+	.top-menu ul li {
+    		padding: 0 5px;
+	}
+}
+
+
