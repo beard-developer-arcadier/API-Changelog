@@ -1263,11 +1263,21 @@ background-size: contain;
     }
 
     .mobile_nav .menu li a{
-	 padding-left: 30px;
-    	padding-right: 30px;
-        display: block;
-        width: 100%;
+	     display: block;
+	    width: 100%;
+	    padding: 15px 30px;
+	    color: #282828;
+	    font-size: 16px;
     }
+
+	.postmane-sec-link, .postmane-sec-link:hover {
+	    padding: 10px 15px;
+            max-width: 204px;
+	    font-size: 14px;
+	    text-align: center;
+	    line-height: 8px;
+	    height: 49px;
+	}
    
     .mobile_nav .menu li a:hover, .mobile_nav .menu li a:focus {
        background:#ef5b25;
