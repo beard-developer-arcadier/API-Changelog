@@ -1059,9 +1059,10 @@ footer {
     }
 
     .arc_logo {
-        width: auto;
+        width: 100%;
 	display: flex;
     	justify-content: center;
+	align-items: center;
     }
 
     header {
