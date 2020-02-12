@@ -1257,7 +1257,11 @@ background-size: contain;
     }
 
     .mobile_nav {
-        margin-top: 71px;
+        margin-top: 51px;
+	position: absolute;
+	width: 100%;
+	background: #fff;
+        display: block;
     }
 
     .mobile_nav.active {
