@@ -7,7 +7,7 @@
   },
   "item": [
     {
-      "name": "Authentication",
+      "name": "Log In/Out",
       "item": [
         {
           "name": "Log In/Get Admin Token",
