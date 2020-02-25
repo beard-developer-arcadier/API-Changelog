@@ -1,3 +1,12 @@
+<p class="changelog-title"><span><strong>PageSize limitation to 5000</strong></span><span class="pull-right">25 February 2020</span></p>
+
+To improve the speed and efficiency of our APIs, the maximum value of pageSize has been limited to 4800. 
+* [More details here.](https://apiv2.arcadier.com/?version=latest#pagination)
+* It is advised to use extra filters when doing searches.
+* If the intention is to get 100% of Records, where the number of Records exceed 4800, combine `pageSize` with `pageNumber` and do a couple of API calls.
+
+---
+
 <p class="changelog-title"><span><strong>Item Creation API</strong></span><span class="pull-right">25 February 2020</span></p>
 
 Both Admin and Merchant can use this API:
