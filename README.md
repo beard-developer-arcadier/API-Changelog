@@ -1,3 +1,10 @@
+<p class="changelog-title"><span><strong>Item Creation API</strong></span><span class="pull-right">25 February 2020</span></p>
+
+Both Admin and Merchant can use this API:
+* [Item Create](https://apiv2.arcadier.com/?version=latest#03d18078-0f46-4c84-b9ff-c464c7853580)
+* The Admin can create items on behalf of other merchants.
+
+---
 
 <p class="changelog-title"><span><strong>Transaction History APIs</strong></span><span class="pull-right">7 February 2020</span></p>
 
