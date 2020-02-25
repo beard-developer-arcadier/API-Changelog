@@ -1,4 +1,4 @@
-<p class="changelog-title"><span><strong>PageSize limitation to 5000</strong></span><span class="pull-right">25 February 2020</span></p>
+<p class="changelog-title"><span><strong>PageSize limitation to 4800</strong></span><span class="pull-right">25 February 2020</span></p>
 
 To improve the speed and efficiency of our APIs, the maximum value of pageSize has been limited to 4800. 
 * [More details here.](https://apiv2.arcadier.com/?version=latest#pagination)
