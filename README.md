@@ -1,3 +1,10 @@
+<p class="changelog-title"><span><strong>URL shortening APIs added</strong></span><span class="pull-right">4 May 2020</span></p>
+
+A new API has been made available to shorten URL slugs of your choice on your marketplace.
+* Details are in the API documentation [here](https://apiv2.arcadier.com/?version=latest#4b934939-cd65-4ed0-aee9-3b15de47904b).
+
+---
+
 <p class="changelog-title"><span><strong>Webhook & Event Triggers APIs added</strong></span><span class="pull-right">24 April 2020</span></p>
 
 New APIs have been made available to set up event triggers on your marketplace. These event triggers can be hooked to your own webhooks.
