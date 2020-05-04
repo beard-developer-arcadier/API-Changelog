@@ -1,3 +1,10 @@
+<p class="changelog-title"><span><strong>Webhook & Event Triggers APIs added</strong></span><span class="pull-right">24 April 2020</span></p>
+
+New APIs have been made available to set up event triggers on your marketplace. These event triggers can be hooked to your own webhooks.
+* Details are in the API documentation [here](https://apiv2.arcadier.com/?version=latest#cda751b9-e7a4-4d50-b660-72ec9cd4d4f0).
+
+---
+
 <p class="changelog-title"><span><strong>PageSize limitation to 500</strong></span><span class="pull-right">25 February 2020</span></p>
 
 To improve the speed and efficiency of our APIs, the maximum value of pageSize has been limited to 500. 
