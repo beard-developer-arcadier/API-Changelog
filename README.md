@@ -36,7 +36,7 @@ Added time filtering query parameters to:
 
 ---
 
-<p class="changelog-title"><span><strong>Item Search APIs</strong></span><span class="pull-right">6 February 2020</span></p>
+<p class="changelog-title"><span><strong>Item Search APIs. </strong></span><span class="pull-right">6 February 2020</span></p>
 
 Added sorting query parameters to:
 * [Get All Items](https://apiv2.arcadier.com/?version=latest#c06e85df-93f9-446c-a9b2-426296185d0d)
