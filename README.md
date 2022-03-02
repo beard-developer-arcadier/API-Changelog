@@ -25,7 +25,7 @@ To improve the speed and efficiency of our APIs, the maximum value of pageSize h
 
 Both Admin and Merchant can use this API:
 * [Item Create](https://apiv2.arcadier.com/?version=latest#03d18078-0f46-4c84-b9ff-c464c7853580)
-* The Admin can create items on behalf of other merchants.
+* The Admin can create items on behalf of THE other merchants.
 
 ---
 
